@@ -1,6 +1,5 @@
 const uploadCSVModel = require('../model/schema');
 const csvToJson = require('csvjson-csv2json');
-const uuidV1 = require('uuid');
 
 exports.saveCSVData = async (req, res) => {
     try {
